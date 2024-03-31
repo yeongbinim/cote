@@ -3,7 +3,7 @@ package main.baekjoon;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class BOJ_BigO_구간합 {
+public class S3_BigO_구간합 {
     private static int[] computeIntervalSums(int[] numArr, int[][] queryArr) {
         // O(N)
         int[] prefixSum = new int[numArr.length + 1];
