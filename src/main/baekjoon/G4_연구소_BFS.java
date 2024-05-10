@@ -3,7 +3,7 @@ package main.baekjoon;
 import java.io.*;
 import java.util.*;
 
-public class G4_BFS_연구소 {
+public class G4_연구소_BFS {
 
     private static final int[][] drdc = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
 

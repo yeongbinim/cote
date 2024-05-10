@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class P4_DP_평범한배낭2 {
+public class P4_평범한배낭2_DP {
     private static class Item {
         int weight;
         int value;

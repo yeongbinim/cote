@@ -2,7 +2,7 @@ package main.programmers;
 
 import java.util.*;
 
-public class L2_DataStructure_오픈채팅방 {
+public class L2_오픈채팅방_DataStructure {
     private static final Map<String, String> commandMap = new HashMap<>(){{
         put("Enter", "님이 들어왔습니다.");
         put("Leave", "님이 나갔습니다.");

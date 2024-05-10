@@ -3,7 +3,7 @@ package main.programmers;
 import java.util.ArrayList;
 import java.util.List;
 
-public class L2_BigO_줄서는방법 {
+public class L2_줄서는방법_BigO {
     public int[] solution(int n, long k) {
         long fact = 1;
         for (int i = 1; i <= n; i++) { //O(n)

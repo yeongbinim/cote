@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class G5_BinarySearch_용액 {
+public class G5_용액_BinarySearch {
     private static int bsearch(int[] arr, int leftIdx, int rightIdx, int target) {
         rightIdx -= 1;
         while (leftIdx < rightIdx) {

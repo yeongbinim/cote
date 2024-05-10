@@ -2,7 +2,7 @@ package main.programmers;
 
 import java.util.*;
 
-public class L2_PriorityQ_디펜스게임 {
+public class L2_디펜스게임_PriorityQ {
     public int solution(int n, int k, int[] enemy) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         k = Math.min(k, enemy.length);

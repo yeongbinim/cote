@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class G5_DP_평범한배낭 {
+public class G5_평범한배낭_DP {
     private static class Item {
         int weight;
         int value;

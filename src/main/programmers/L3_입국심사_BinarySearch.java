@@ -1,6 +1,6 @@
 package main.programmers;
 
-public class L3_BinarySearch_입국심사 {
+public class L3_입국심사_BinarySearch {
     static final long MAX = 1_000_000_000;
 
     private boolean isPossible(long n, int[] times, long target) {

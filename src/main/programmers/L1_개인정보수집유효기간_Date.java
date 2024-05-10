@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-public class L1_Date_개인정보수집유효기간 {
+public class L1_개인정보수집유효기간_Date {
     private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy.MM.dd");
 
     public int[] solution(String today, String[] terms, String[] privacies) {

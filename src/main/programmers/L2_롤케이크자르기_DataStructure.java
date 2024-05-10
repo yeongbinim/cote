@@ -2,7 +2,7 @@ package main.programmers;
 
 import java.util.*;
 
-public class L2_DataStructure_롤케이크자르기 {
+public class L2_롤케이크자르기_DataStructure {
     public int solution(int[] topping) {
         HashSet<Integer> leftTopping = new HashSet<>();
         HashMap<Integer, Integer> rightTopping = new HashMap<>();

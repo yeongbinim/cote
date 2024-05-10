@@ -1,6 +1,6 @@
 package main.programmers;
 
-public class L2_Greedy_택배배달과수거하기 {
+public class L2_택배배달과수거하기_Greedy {
     public long solution(int cap, int n, int[] deliveries, int[] pickups) {
         long distSum = 0;
 

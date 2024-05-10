@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class G3_DP_DanceDanceRevolution {
+public class G3_DanceDanceRevolution_DP {
     private static int calculateCost(int prev, int cur) {
         if (prev == cur) {
             return 1;

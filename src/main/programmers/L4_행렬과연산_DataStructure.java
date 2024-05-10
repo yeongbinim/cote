@@ -2,7 +2,7 @@ package main.programmers;
 
 import java.util.*;
 
-public class L4_DataStructure_행렬과연산 {
+public class L4_행렬과연산_DataStructure {
     class MoveMatrix {
         private final Deque<Integer> leftDeque = new ArrayDeque<>();
         private final Deque<Integer> rightDeque = new ArrayDeque<>();
@@ -73,7 +73,7 @@ public class L4_DataStructure_행렬과연산 {
     }
 
     public static void main(String[] args) {
-        L4_DataStructure_행렬과연산 test = new L4_DataStructure_행렬과연산();
+        L4_행렬과연산_DataStructure test = new L4_행렬과연산_DataStructure();
         int[][] rc = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         String[] operations = {"Rotate", "ShiftRow"};
         System.out.println(Arrays.deepToString(test.solution(rc, operations)));

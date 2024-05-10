@@ -2,7 +2,7 @@ package main.programmers;
 
 import java.util.PriorityQueue;
 
-public class L3_PriorityQ_징검다리건너기 {
+public class L3_징검다리건너기_PriorityQ {
     private class Stone implements Comparable<Stone>{
         int index;
         int value;
@@ -35,7 +35,7 @@ public class L3_PriorityQ_징검다리건너기 {
     }
 
     public static void main(String[] args) {
-        L3_PriorityQ_징검다리건너기 sol = new L3_PriorityQ_징검다리건너기();
+        L3_징검다리건너기_PriorityQ sol = new L3_징검다리건너기_PriorityQ();
         int answer = sol.solution(new int[]{2, 4, 5, 3, 2, 1, 4, 2, 5, 1}, 3);
         System.out.println(answer);
     }

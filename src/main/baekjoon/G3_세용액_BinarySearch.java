@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class G3_BinarySearch_세용액 {
+public class G3_세용액_BinarySearch {
     private static int getOptimalIdx(int[] arr, int startIdx, int target) {
         int optimalIdx = Arrays.binarySearch(arr, startIdx, arr.length, -target);
         if (optimalIdx < 0) {

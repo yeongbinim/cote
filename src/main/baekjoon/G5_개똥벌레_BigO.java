@@ -3,7 +3,7 @@ package main.baekjoon;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class G5_BigO_개똥벌레 {
+public class G5_개똥벌레_BigO {
     private static int[] findShortestSection(int height, int[] obstructionArr) {
         int[] prefix = new int[height + 1];
 

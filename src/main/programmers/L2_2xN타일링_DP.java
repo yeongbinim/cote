@@ -1,6 +1,6 @@
 package main.programmers;
 
-public class L2_DP_2xN타일링 {
+public class L2_2xN타일링_DP {
     private final int MOD = 1_000_000_007;
     public int solution(int n) {
         long[] dp = new long[n + 1];

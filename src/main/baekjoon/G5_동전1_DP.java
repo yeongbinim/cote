@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class G5_DP_동전1 {
+public class G5_동전1_DP {
     private static int solution(int[] coinArr, int amount) {
         int[][] dp = new int[coinArr.length + 1][amount + 1];
 

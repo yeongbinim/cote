@@ -1,6 +1,6 @@
 package main.programmers;
 
-public class L3_DP_거스름돈 {
+public class L3_거스름돈_DP {
     public int solution(int n, int[] money) {
         long[][] dp = new long[money.length + 1][n + 1];
 

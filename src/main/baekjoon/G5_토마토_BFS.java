@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class G5_BFS_토마토 {
+public class G5_토마토_BFS {
     private static class Pos {
         int h;
         int r;

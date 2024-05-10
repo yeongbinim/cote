@@ -2,7 +2,7 @@ package main.programmers;
 
 import java.util.*;
 
-public class L2_DataStructure_캐시 {
+public class L2_캐시_DataStructure {
     class Cache {
         private Queue<String> queue = new ArrayDeque<>();
         private int size;
@@ -37,7 +37,7 @@ public class L2_DataStructure_캐시 {
         return answer;
     }
     public static void main(String[] args) {
-        L2_DataStructure_캐시 test = new L2_DataStructure_캐시();
+        L2_캐시_DataStructure test = new L2_캐시_DataStructure();
         int cacheSize = 3;
         String[] cities = {"Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"};
         int answer = test.solution(cacheSize, cities);

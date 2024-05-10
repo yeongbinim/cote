@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.StringTokenizer;
 
-public class G4_DataStructure_오큰수 {
+public class G4_오큰수_DataStructure {
     private static int[] solution(int[] sequence) {
         ArrayDeque<Integer> stack = new ArrayDeque<>();
 
