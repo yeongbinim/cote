@@ -13,14 +13,14 @@ public class G4_부분합_TwoPointer {
             prefixArr[i] = prefixArr[i - 1] + arr[i - 1];
         }
 
-        int i = 0, j = 1;
-        while (i < prefixArr.length - 1 && j < prefixArr.length) {
-            if (prefixArr[j] - prefixArr[i] >= target) {
-                answer = Math.min(answer, j - i);
-                i++;
+        int left = 0, right = 1;
+        while (right < prefixArr.length) {
+            if (prefixArr[right] - prefixArr[left] >= target) {
+                answer = Math.min(answer, right - left);
+                left++;
             }
             else {
-                j++;
+                right++;
             }
         }
 
